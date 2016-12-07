@@ -79,10 +79,6 @@ p {
     -webkit-animation: flipcard 5s;
     animation: flipcard 5s;
 }
-.card:visited .front {
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-}
 .card:active .back {
     -webkit-transform: rotateX(15deg);
     transform: rotateX(15deg);
