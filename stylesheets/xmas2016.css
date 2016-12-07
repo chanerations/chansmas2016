@@ -47,7 +47,7 @@ p {
 }
 
 .card:hover .face {
-    -webkit-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.8s ease-out;
 }
 .face {
     position: absolute;
@@ -71,8 +71,6 @@ p {
 }
 .card:hover .front {
     -webkit-transform: rotateX(165deg);
-}
-.card:visited .front {
     -webkit-transform: rotateX(15deg);
 }
 //.card:active .front{
