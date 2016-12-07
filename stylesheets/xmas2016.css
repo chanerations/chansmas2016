@@ -70,11 +70,23 @@ p {
     z-index: 1;
 }
 .card:hover .front {
-    -webkit-transform: rotateX(165deg);
+//    -webkit-transform: rotateX(165deg);
+    animation: flipcard 3s;
 }
 //.card:active .front{
 //    -webkit-transform: rotateX(165deg);  
 //}
 .card:active .back {
     -webkit-transform: rotateX(15deg);  
+}
+@keyframes flipcard {
+  0% {
+      -webkit-transform: rotateX(15deg);
+    }
+  50% {
+      -webkit-transform: rotateX(165deg);
+    }
+  100% {
+      -webkit-transform: rotateX(15deg);
+    }
 }
