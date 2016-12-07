@@ -70,11 +70,11 @@ p {
     z-index: 1;
 }
 .card:hover .front {
-    -webkit-transform: rotateX(35deg);  
-}
-.card:active .front{
     -webkit-transform: rotateX(165deg);  
 }
+//.card:active .front{
+//    -webkit-transform: rotateX(165deg);  
+//}
 .card:active .back {
     -webkit-transform: rotateX(15deg);  
 }
