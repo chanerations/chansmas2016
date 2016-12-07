@@ -65,7 +65,7 @@ p {
 }
 .back {
     background: #dcdcdc;
-    background-image: url("xmas2016back.jpg");
+    background-image: url("./images/xmas2016back.jpg");
     -webkit-transform: rotateX(0deg);
     z-index: 1;
 }
