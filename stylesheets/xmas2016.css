@@ -35,7 +35,6 @@ p {
     cursor: pointer;
 }
 .card:before {
-//    content: 'Mouse down for detail ?';
     position: absolute;
     width: 800px;
     height: 574px;
@@ -65,8 +64,8 @@ p {
 
 }
 .front {
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg);
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
     z-index: 2;
 }
 .back {
