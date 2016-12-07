@@ -48,6 +48,7 @@ p {
 
 .card:hover .face {
     -webkit-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
 }
 .face {
     position: absolute;
@@ -58,31 +59,42 @@ p {
     -webkit-backface-visibility: visible; 
     -webkit-transition: all 0.5s ease-out;
     -webkit-transform-origin: 0 0;
+    backface-visibility: visible; 
+    transition: all 0.5s ease-out;
+    transform-origin: 0 0;
+
 }
 .front {
     -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 2;
 }
 .back {
     background: #dcdcdc;
     background-image: url("../images/xmas2016back.jpg");
     -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 1;
 }
 .card:hover .front {
+    -webkit-animation: flipcard 3s;
     animation: flipcard 3s;
 }
 .card:active .back {
-    -webkit-transform: rotateX(15deg);  
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
 }
 @keyframes flipcard {
   0% {
-      -webkit-transform: rotateX(15deg);
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
     }
   50% {
-      -webkit-transform: rotateX(165deg);
+    -webkit-transform: rotateX(165deg);
+    transform: rotateX(165deg);
     }
   100% {
-      -webkit-transform: rotateX(15deg);
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
     }
 }
