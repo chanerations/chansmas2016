@@ -70,7 +70,6 @@ p {
     z-index: 1;
 }
 .card:hover .front {
-//    -webkit-transform: rotateX(165deg);
     animation: flipcard 3s;
 }
 //.card:active .front{
