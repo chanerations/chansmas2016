@@ -76,8 +76,8 @@ p {
     z-index: 1;
 }
 .card:hover .front {
-    -webkit-animation: flipcard 5s;
-    animation: flipcard 5s;
+    -webkit-animation: flipcard 8s;
+    animation: flipcard 8s;
 }
 .card:active .back {
     -webkit-transform: rotateX(15deg);
