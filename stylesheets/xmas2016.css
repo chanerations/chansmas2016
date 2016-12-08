@@ -88,11 +88,11 @@ p {
     -webkit-transform: rotateX(25deg);
     transform: rotateX(25deg);
     }
-  30% {
+  25% {
     -webkit-transform: rotateX(165deg);
     transform: rotateX(165deg);
     }
-  40% {
+  60% {
     -webkit-transform: rotateX(165deg);
     transform: rotateX(165deg);
     }
