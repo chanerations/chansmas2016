@@ -83,6 +83,10 @@ p {
     -webkit-transform: rotateX(15deg);
     transform: rotateX(15deg);
 }
+.card::after .front {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);   
+}
 @keyframes flipcard {
   0% {
     -webkit-transform: rotateX(25deg);
